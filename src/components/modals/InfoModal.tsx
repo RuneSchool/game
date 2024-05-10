@@ -8,7 +8,7 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="𐑣𐑬 𐑑 𐑐𐑤𐑱" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="ᚻᚫ‍ᚹ᛫​ᛏ᛫​ᛈᛚᛖ‍ᛡ" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         ᚸᛖᛋ᛫​ᚦ᛭​ᚹᚢ‍ᚱᛞᛚ᛫​ᛁᚾ᛫​6᛫​ᛏᚱᚫ‍ᛡᛉ᛫​᛫​ᚪᚠᛏᛟ‍ᚱ᛫​ᛇᚳ᛫​ᚸᛖᛋ᛬​ᚦ᛫​ᛣᚢᛚᛟ‍ᚱ᛫​ᚠ‍ᚠ᛫​ᚦ᛫​ᛏᚫ‍ᛡᛚᛉ᛫​ᚹᛁᛚ᛫​ᚳᛖ‍ᛡᚾᚷ᛫​ᛏ᛫​ᛋ‍ᚳᚩ‍ᚹ᛫​ᚻᚫ‍ᚹ᛫​ᛣᛚᚩ‍ᚹᛋ᛫​ᛡᚩ‍ᚱ᛫​ᚸᛖᛋ᛫​ᚹᚩᛉ᛫​ᛏ᛫​ᚦ᛫​ᚹᚢ‍ᚱᛞ
       </p>
