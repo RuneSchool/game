@@ -9,7 +9,7 @@
     "787.b3f9d252.chunk.js.map": "/game/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
-    "/game/static/css/main.f6bf7df2.css",
-    "/game/static/js/main.f70c5457.js"
+    "static/css/main.f6bf7df2.css",
+    "static/js/main.f70c5457.js"
   ]
 }
