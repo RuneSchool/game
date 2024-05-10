@@ -1,7 +1,7 @@
 {
-  "name": "rune word game",
+  "name": "game",
   "version": "0.1.0",
-  "homepage": "https://rune.school/game",
+  "homepage": "/game",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.4.2",
