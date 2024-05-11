@@ -60,7 +60,6 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
       <div className="flex justify-center mb-1">
         <Key value="ᛁ" onClick={onClick} status={charStatuses['ᛁ']} />
         <Key value="ᛄ" onClick={onClick} status={charStatuses['ᛄ']} />
-        <Key value="ᛡ" onClick={onClick} status={charStatuses['ᛡ']} />
         <Key value="ᛈ" onClick={onClick} status={charStatuses['ᛈ']} />
         <Key value="ᛉ" onClick={onClick} status={charStatuses['ᛉ']} />
         <Key value="ᛋ" onClick={onClick} status={charStatuses['ᛋ']} />
@@ -68,17 +67,19 @@ export const Keyboard = ({ onChar, onDelete, onEnter, guesses }: Props) => {
         <Key value="ᛒ" onClick={onClick} status={charStatuses['ᛒ']} />
         <Key value="ᛖ" onClick={onClick} status={charStatuses['ᛖ']} />
         <Key value="ᛗ" onClick={onClick} status={charStatuses['ᛗ']} />
+        <Key value="ᛚ" onClick={onClick} status={charStatuses['ᛚ']} />
       </div>
       <div className="flex justify-center mb-1">
       <Key width={65.4} value="ENTER" onClick={onClick}>
           {ENTER_TEXT}
         </Key>
-        <Key value="ᛚ" onClick={onClick} status={charStatuses['ᛚ']} />
+        
         <Key value="ᛝ" onClick={onClick} status={charStatuses['ᛝ']} />
         <Key value="ᛞ" onClick={onClick} status={charStatuses['ᛞ']} />
         <Key value="ᛟ" onClick={onClick} status={charStatuses['ᛟ']} />
         <Key value="ᚫ" onClick={onClick} status={charStatuses['ᚫ']} />
         <Key value="ᚣ" onClick={onClick} status={charStatuses['ᚣ']} />
+        <Key value="ᛡ" onClick={onClick} status={charStatuses['ᛡ']} />
         <Key value="ᛣ" onClick={onClick} status={charStatuses['ᛣ']} />
         <Key value="ᚸ" onClick={onClick} status={charStatuses['ᚸ']} />
         <Key width={65.4} value="DELETE" onClick={onClick}>

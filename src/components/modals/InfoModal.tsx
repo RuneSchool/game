@@ -9,10 +9,10 @@ type Props = {
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="ᚻᚫ‍ᚹ᛫​ᛏ᛫​ᛈᛚᛖ‍ᛡ" isOpen={isOpen} handleClose={handleClose}>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
+      <p className="text-lg text-gray-500 dark:text-gray-300">
         ᚸᛖᛋ᛫​ᚦ᛭​ᚹᚢ‍ᚱᛞᛚ᛫​ᛁᚾ᛫​6᛫​ᛏᚱᚫ‍ᛡᛉ᛫​᛫​ᚪᚠᛏᛟ‍ᚱ᛫​ᛇᚳ᛫​ᚸᛖᛋ᛬​ᚦ᛫​ᛣᚢᛚᛟ‍ᚱ᛫​ᚠ‍ᚠ᛫​ᚦ᛫​ᛏᚫ‍ᛡᛚᛉ᛫​ᚹᛁᛚ᛫​ᚳᛖ‍ᛡᚾᚷ᛫​ᛏ᛫​ᛋ‍ᚳᚩ‍ᚹ᛫​ᚻᚫ‍ᚹ᛫​ᛣᛚᚩ‍ᚹᛋ᛫​ᛡᚩ‍ᚱ᛫​ᚸᛖᛋ᛫​ᚹᚩᛉ᛫​ᛏ᛫​ᚦ᛫​ᚹᚢ‍ᚱᛞ
       </p>
-      <p className="text-sm text-red-500 dark:text-red-300">
+      <p className="text-lg text-red-500 dark:text-red-300">
         ᚹᚢ‍ᚱᛞᛉ᛫​ᛞᚣᚹ᛫​ᚾᚩᛏ᛫​ᛡᚣ‍ᚹᛉ⁝​᛭​ᛇ᛭​ᛠ᛫​ᚩ‍ᚱ᛭​ᚪ᛫​᛫​ᛟᛋᛡᚣᚹᛗ᛫​ᛟ᛫​ᛒᚱᛁᛏᛁᛋ‍ᚳ᛫​ᛋᛈᛖᛚᛁᛝ
       </p>
 
@@ -23,7 +23,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="ᛏ" />
         <Cell value="ᛋ" />
       </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
+      <p className="text-lg text-gray-500 dark:text-gray-300">
         ᚦ᛫​ᛚᛖᛏᛟ‍ᚱ᛭​ᛈ᛫​ᛁᛉ᛫​ᛁᚾ᛫​ᚦ᛫​ᚹᚢ‍ᚱᛞ᛫​ᚾ᛫​ᛁᚾ᛫​ᚦ᛫​ᛣᛟᚱᛖᛣᛏ᛫​ᛋᛈᚩᛏ
       </p>
 
@@ -34,7 +34,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="ᛁ" />
         <Cell value="ᛞ" />
       </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
+      <p className="text-lg text-gray-500 dark:text-gray-300">
       ᚦ᛫​ᛚᛖᛏᛟ‍ᚱ᛭ᛚ᛫​ᛁᛉ᛫​ᛁᚾ᛫​ᚦ᛫​ᚹᚢ‍ᚱᛞ᛫ᛒᚢᛏ᛫​ᛁᚾ᛫​ᚦ᛫ᚱᚩᛝ᛫​ᛋᛈᚩᛏ
       </p>
 
@@ -45,7 +45,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="ᚹ" status="absent" />
         <Cell value="ᚳ" />
       </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
+      <p className="text-lg text-gray-500 dark:text-gray-300">
       ᚦ᛫​ᛚᛖᛏᛟ‍ᚱ᛭​ᚹ᛫​ᛁᛉ᛫ᚾᚩᛏ᛫​​ᛁᚾ᛫​ᚦ᛫​ᚹᚢ‍ᚱᛞ᛫​ᛁᚾ᛫​ᛖᚾᛄ᛫​ᛋᛈᚩᛏ
       </p>
     </BaseModal>
